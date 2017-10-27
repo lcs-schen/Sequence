@@ -40,6 +40,8 @@ c.fillColor = Color.green
 c.drawEllipse(centreX: 150, centreY: 250, width: 50, height: 100)
 c.drawRectangle(centreX: 50, centreY: 50, width: 20, height: 20)
 
+// add a rectangle to the top of the screen
+c.drawRectangle(centreX: 150, centreY: 400, width: 100, height: 50)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = c.imageView
